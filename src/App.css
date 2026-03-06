@@ -1,16 +1,14 @@
-.app-container{
-  display: flex; 
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+* {
+  box-sizing: border-box;
 }
-.list-container{
- list-style-type: none; 
- padding: 0px;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', ' Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
-.title{
- color: #183b56; 
- font-size: 32px; 
- padding-bottom: 30px;
- padding-top: 30px;
-}
+
